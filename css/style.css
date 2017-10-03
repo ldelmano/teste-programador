@@ -78,7 +78,7 @@ h4 {
 	transition: .3s;
 }
 
-.menu ul li a span {
+.menu ul li a i {
 	font-size: 18px;
 	margin-right: 20px;
 }
