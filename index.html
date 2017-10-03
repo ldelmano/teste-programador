@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste - Lucca Delmano</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<!-- Arquivos CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<aside id="sidebar">
+		<div id="avatar">
+			<img src="imgs/avatar-icon.png" class="img-responsive">
+		</div>
+
+		<nav class="menu">
+			<ul>
+				<li><a href="#"><span class="fa fa-user" aria-hidden="true"></span> <span class="hidden-xs">Lista de dados</span></a></li>
+				<li><a href=""><span class="fa fa-pencil" aria-hidden="true"></span> <span class="hidden-xs">Alterar dados</span></a></li>
+				<li class="active"><a href="#"><span class="fa fa-file-text-o" aria-hidden="true"></span> <span class="hidden-xs">Notícias</span></a></li>
+			</ul>
+		</nav>
+
+	</aside>
+
+	<main id="conteudo">
+		<header>
+			<div class="row">
+				<div class="col-md-9">
+					<h1>Notícias</h1>
+					<h4>Confira as notícias abaixo</h4>
+				</div>
+
+				<div id="search" class="col-md-3">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Buscar...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button"><span class="fa fa-search" aria-hidden="true"></span></button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="destaque">
+			<span class="icon-post red fa fa-video-camera" aria-hidden="true"></span>
+			<div class="descricao-post post1">
+				<h2>Best story you have ever heard</h2>
+				<span class="time">24 minutes ago</span>
+
+				<p class="text-post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry’s... <a href="#" class="read-more">Read more</a></p>
+			</div>
+			<div id="video-destaque">
+				<div id="video-opt">
+					<ul>
+						<li class="col-xs-4 col-md-12">
+							<i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+							<p>Like</p>
+						</li>
+						<li class="col-xs-4 col-md-12">
+							<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+							<p>Later</p>
+						</li>
+						<li class="col-xs-4 col-md-12">
+							<i class="fa fa-share-square-o fa-2x" aria-hidden="true"></i>
+							<p>Share</p>
+						</li>
+					</ul>
+				</div>
+				<div id="player">
+					<img src="imgs/player.png" class="img-responsive">
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="clearfix"></div>
+
+		</section>
+
+		<section id="posts">
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<span class="icon-post blue fa fa-camera" aria-hidden="true"></span>
+					<div class="descricao-post">
+						<h2>Here's What Instagram Ads Will Look Like</h2>
+						<span class="time">3 hours ago</span>
+
+						<p class="text-post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry’s... <a href="#" class="read-more">Read more</a></p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					<span class="icon-post blue fa fa-camera" aria-hidden="true"></span>
+					<div class="descricao-post">
+						<h2>Here's What Instagram Ads Will Look Like</h2>
+						<span class="time">3 hours ago</span>
+
+						<p class="text-post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry’s... <a href="#" class="read-more">Read more</a></p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					<span class="icon-post blue fa fa-camera" aria-hidden="true"></span>
+					<div class="descricao-post">
+						<h2>Here's What Instagram Ads Will Look Like</h2>
+						<span class="time">3 hours ago</span>
+
+						<p class="text-post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry’s... <a href="#" class="read-more">Read more</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+		</section>
+
+		<section id="post-detail">
+			<div class="row">
+				<div class="col-md-8 col-xs-12">
+					<div class="last-post">
+						<img src="imgs/image-post.png" class="img-responsive">
+
+						<div class="descricao-detalhada">
+							<span class="icon-post icon-last blue2 fa fa-file-text-o" aria-hidden="true"></span>
+							<h2>What is Lorem Ipsum?</h2>
+
+							<p class="text-post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting...<a href="#" class="read-more">Read more</a></p>
+
+							<ul class="list-inline social">
+								<li>
+									<i class="fa fa-share-square-o blue-icon fa-2x" aria-hidden="true"></i>
+									<label>569 Shares</label>
+								</li>
+								<li>
+									<i class="fa fa-eye blue-icon fa-2x" aria-hidden="true"></i>
+									<label>3.152 Views</label>
+								</li>
+								<li>
+									<i class="fa fa-comment blue-icon fa-2x" aria-hidden="true"></i>
+									<label>21 Comments</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+</body>
+</html>
